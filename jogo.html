@@ -1,7 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="pt-br">
 	<head>
-
 		<link rel="icon" type="image/png" href="imagens/balao_azul_pequeno.png" />
 		
 		<meta charset="UTF-8">
@@ -10,10 +9,12 @@
 
 		<script src="jogo.js" ></script>
 
+		<link rel="stylesheet" type="text/css" href="estilo.css" />
+
 	</head>
 
 	<body onload="iniciarJogo()" style="position:absolute; top:8%; left:22%;">
-		<div style="float: left; width: auto; height: 500px; background:#FFF; border:solid 1px #A2A2A2; margin-right:5px">
+		<div class="principal">
 			<table border="0">
 				<tr>
 					<td>
@@ -50,7 +51,7 @@
 
 		</div>
 
-		<div id="cenario" style="float: left; width: 600px; height: 500px; background: url('imagens/cenario.png'); background-position: bottom">
+		<div id="cenario" class="cenario">
 		</div>
 	</body>
 	

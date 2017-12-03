@@ -1,0 +1,49 @@
+/* --- Index--- */
+.body{
+    margin:0; 
+    padding: 0;
+}
+.font_size{
+    font-size:20px;
+}
+.instrucoes{ 
+    margin-left: 8%;
+}
+.float_left{
+    float:left;
+}
+.header{
+    height: 180px; 
+    border-bottom: 1px solid rgba(34, 214, 66, 0.9); 
+    background: rgba(34, 214, 66, 0.9);
+}
+.header h1{
+    font-size: 40px; 
+    text-align:center; 
+    position:absolute;
+    left: 35%; 
+    top: 43px; 
+    color: #fff;
+}
+.conteudo{
+    margin-top:5%; 
+    margin-left: 20%;
+}
+
+/* --- Jogo --- */
+
+.principal{
+    float: left; 
+    width: auto; 
+    height: 500px; 
+    background:#FFF; 
+    border:solid 1px #A2A2A2; 
+    margin-right:5px;
+}
+.cenario{
+    float: left; 
+    width: 600px; 
+    height: 500px; 
+    background: url('imagens/cenario.png'); 
+    background-position: bottom;
+}
